@@ -1,0 +1,174 @@
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(244, 245, 246);
+    text-align: center;
+    font-size: 18px;
+}
+    
+main{
+    background-color:rgb(122, 178, 186);
+    text-align: center;
+    
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(57, 57, 57, 0.5)) , 
+    url(https://p2.piqsels.com/preview/745/724/30/bridge-nature-road-journey.jpg);
+     height: 70vh;
+     background-size: cover;
+     background-position: center; 
+} 
+    
+ul{
+    list-style-type: none; 
+    float: right;
+    } 
+ul li{display:inline-block ; margin-top:25px ;
+    } 
+ul li a{text-decoration: none; color: rgb(202, 236, 234); 
+    padding: 5px 20px; border: 1px solid transparent;
+    } 
+ul li a:hover{background-color: white;color: black; 
+    transition: 0.6s ease;
+    } 
+/* .main{max-width: 1200px ;  */
+    /* margin: auto;}  */
+ul li.creative a{position: relative;left: -300%;
+    } 
+.intro{position: absolute; 
+    text-align: center;
+    font-size: large;
+    top: 50%; 
+    left: 50%; 
+    color: aliceblue;
+    transform: translate(-50% ,-50%);
+}
+
+.avatar {
+    vertical-align: middle;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+  }
+
+/* introduction */
+#about{
+    padding-top: 20px;
+}
+.box1 {
+    background-color: #fff;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 33%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}   
+/* education */
+
+.section {
+    margin-left: 35%;
+    width: 400px;
+    background-color: #fff;
+    padding : 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.section h2 {
+    margin-bottom: 3px;
+}
+.section p {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+/* portfolio */
+
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:10px;
+    margin-top:10px;
+}
+
+progress {
+    width: 50%;
+} 
+
+ /* certificates */
+.certificate {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+ 
+.certificate-link {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #40d3f4;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+.certificate-link:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/*  contact*/
+
+.contact {
+    margin-left: 40%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+
+}
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+}
+
+/* logos */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: tomato;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.logo a:hover {
+    color: #555;  
+}
